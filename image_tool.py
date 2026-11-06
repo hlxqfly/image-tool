@@ -7,6 +7,7 @@ import numpy as np
 
 
 def read_image(path):
+       # 检查文件是否存在
     if not os.path.exists(path):
         print(f"错误：文件不存在 -> {path}", file=sys.stderr)
         sys.exit(1)
