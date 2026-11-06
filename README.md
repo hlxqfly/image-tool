@@ -18,3 +18,5 @@
 curl -LsSf https://astral.sh/uv/install.sh | sh
 uv sync
 、
+## 更新日志
+- v0.1: 完成所有基础功能
